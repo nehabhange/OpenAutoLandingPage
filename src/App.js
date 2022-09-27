@@ -1,10 +1,11 @@
-import Header from "./Layout/Header";
+
+import LandingPage from "./Pages/LandingPage";
 
 
 function App() {
   return (
-    <div className="App">
-      <Header/>
+    <div>
+   <LandingPage/>
     </div>
   );
 }
