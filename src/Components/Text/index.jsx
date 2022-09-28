@@ -1,8 +1,8 @@
 import React from 'react'
-
+import "./index.css"
 const Text = (props) => {
   return (
-    <div><div style={{fontSize:"40px",}}>
+    <div><div className='text'>
     {props.children}
   
     

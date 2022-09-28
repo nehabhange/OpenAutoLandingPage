@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
+import "./index.css"
 
-const icontext = () => {
+const icontext = (props) => {
   return (
     <div>
     
     
-    <div> <span>j</span>+769 586 4558</div></div>
+    <div className='icontext' > {props.children}</div></div>
   )
 }
 

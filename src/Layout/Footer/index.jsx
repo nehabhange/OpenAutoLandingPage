@@ -5,7 +5,7 @@ import IconText from "../../Components/IconsText";
 import SocialMedia from "../../Components/SocialMedia";
 const Footer = () => {
   return (
-    <div>
+    <div style={{background:"#111720"}}>
       <Grid container spacing={2}>
         <Grid item sx={8} md={8} xs={12}><Logo/> Open</Grid>
 

@@ -1,9 +1,11 @@
 import React from 'react'
-
-const logo = () => {
+import logo from "../../Assest/logo.png"
+const Logo = () => {
   return (
-    <div><div>OpenAuto</div></div>
+    <div><div>
+    <img src={logo} alt="openautologo"/>
+    </div></div>
   )
 }
 
-export default logo
+export default Logo

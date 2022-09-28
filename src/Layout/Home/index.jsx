@@ -8,7 +8,7 @@ import SocialMedia from "../../Components/SocialMedia";
 import BodyText from "../../Components/BodyText";
 const Home = () => {
   return (
-    <div style={{padding:"10%"}}>
+    <div style={{padding:"10%",background:"#111720"}}>
       <Grid container spacing={2}>
         <Grid item  sm={6} md={6} xs={12} style={{border:"1px solid black"}}>
           <Text sx={{fontSize:"20px"}}>Vehicle Maintenance<br></br> From the Comfort of <br></br>Your Home</Text>
