@@ -1,11 +1,10 @@
 import React from 'react'
 import logo from "../../Assest/logo.png"
-const Logo = () => {
+const Logo = (props) => {
   return (
-    <div><div>
+    <div style={{...props.sx}}>
     <img src={logo} alt="openautologo"/>
-    </div></div>
-  )
+    </div>)
 }
 
 export default Logo

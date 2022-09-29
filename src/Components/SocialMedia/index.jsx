@@ -4,11 +4,13 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
-const SocialMedia = () => {
+import "./index.css"
+const SocialMedia = (props) => {
+  const className = props.className ? `list ${props.className}` : "list"
   return (
     <div>
 
-        <ul style={{listStyle:"none",display:"inline-flex",float:"right",justifyContent:"space-between"}}>
+        <ul  className={className} style={{...props.sx}} >
           <li><FacebookIcon/></li>
           <li><TwitterIcon/></li>
           <li><YouTubeIcon/></li>

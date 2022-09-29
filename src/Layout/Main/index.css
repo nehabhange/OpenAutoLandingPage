@@ -1,0 +1,50 @@
+
+.input-responsive{
+    width:60%;
+}
+    
+.heading-responsive {
+    
+    color:#cfd1d4;
+}   
+
+.body-text-responsive {
+    
+    color:grey;
+}
+
+.social-icon-responsive {
+float: right
+}
+
+@media screen and (max-width:900px) {
+    .input-responsive{
+        width:100%;
+
+    }
+
+    .heading-responsive {
+        font-size: 35px;
+        color:#cfd1d4;
+        text-align: center;
+    }  
+    
+    .body-text-responsive {
+        text-align: center;
+        color:grey;
+    }
+
+    .social-icon-responsive {
+        margin-left: 30%;
+        margin-right: 50%;
+        float: none;
+
+        }
+   
+        
+    
+}
+
+
+
+
