@@ -7,7 +7,7 @@ import Buttons from "../../Components/Buttons";
 import "./index.css";
 const Section = () => {
   return (
-    <div style={{ background: "rgb(21,26,36)",border:"1px solid grey", paddingLeft:"5%", paddingRight:"5%", paddingTop:"4%" ,paddingBottom:"5%" }}>
+    <div style={{ background: "rgb(21,26,36)", paddingLeft:"5%", paddingRight:"5%", paddingTop:"4%" ,paddingBottom:"5%" }}>
       <Grid container spacing={2} sx={{}}>
         <Grid item sm={12} md={6} xs={12} order={{xs:2, sm:2, md:1}}  sx={{}}>
         <div  >

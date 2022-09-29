@@ -11,6 +11,7 @@ const LandingPage = () => {
       <Main />
      
       <Section />
+      
 <Footer/>
     </div>
   );

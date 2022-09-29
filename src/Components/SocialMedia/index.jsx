@@ -8,7 +8,7 @@ import "./index.css"
 const SocialMedia = (props) => {
   const className = props.className ? `list ${props.className}` : "list"
   return (
-    <div>
+  
 
         <ul  className={className} style={{...props.sx}} >
           <li><FacebookIcon/></li>
@@ -18,7 +18,7 @@ const SocialMedia = (props) => {
           <li><InstagramIcon/></li>
         </ul>
      
-    </div>
+   
   );
 };
 

@@ -14,8 +14,15 @@
 }
 
 .social-icon-responsive {
-float: right
+    /* padding-top:20px; */
+    text-align: right;
 }
+
+button.btn:hover{
+    background: purple;
+}
+
+
 
 @media screen and (max-width:900px) {
     .input-responsive{
@@ -34,14 +41,15 @@ float: right
         color:grey;
     }
 
-    .social-icon-responsive {
-        margin-left: 30%;
-        margin-right: 50%;
-        float: none;
-
-        }
+    .social-icon-responsive{
+        text-align: center;
+        margin-left: 18%;
+        margin-right: 18%;
+    }
    
-        
+    .arrow {
+    display:none;
+    }
     
 }
 

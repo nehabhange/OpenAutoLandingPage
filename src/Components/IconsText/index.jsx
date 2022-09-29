@@ -6,7 +6,7 @@ const icontext = (props) => {
     <div>
     
     
-    <div style={{ color:color,...props.sx}}><span style={{ paddingRight:"2px"}}>{props.icon}</span> {props.children}</div></div>
+    <div className={props.className} style={{ color:color,...props.sx}}><span style={{ paddingRight:"2px"}}>{props.icon}</span> {props.children}</div></div>
   )
 }
 
