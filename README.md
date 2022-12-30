@@ -1,7 +1,3 @@
-# Walkthrough video
-
-[openauto.webm](https://user-images.githubusercontent.com/87376267/193055505-06902690-0125-47b5-b436-b00e19799e35.webm)
-
 
 
 # Getting Started with Create React App
